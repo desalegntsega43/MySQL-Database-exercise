@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add iPhone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Add New iPhone</h1>
+    <form action="/http://localhost:3001/add-product" method="POST">
+      <label>Product URL:</label>
+      <input type="text" name="product_url" required>
+
+      <label>Product Name:</label>
+      <input type="text" name="product_name" required>
+
+      <label>Brief Description:</label>
+      <input type="text" name="product_brief_description" required>
+
+      <label>Full Description:</label>
+      <input type="text" name="product_description">
+
+      <label>Product Image URL:</label>
+      <input type="text" name="product_img">
+
+      <label>Product Link:</label>
+      <input type="text" name="product_link">
+
+      <label>Starting Price:</label>
+      <input type="text" name="starting_price" required>
+
+      <label>Price Range:</label>
+      <input type="text" name="price_range">
+
+      <button type="submit">Add iPhone</button>
+    </form>
+  </div>
+</body>
+</html>

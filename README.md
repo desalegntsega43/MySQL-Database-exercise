@@ -1,1 +1,2 @@
-# MySQL-Database-exercise
+# MySQL-Database
+Working with databases MySql Practice Exercises
